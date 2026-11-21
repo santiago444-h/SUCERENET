@@ -1,16 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.securenet;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- *
- * @author pc40
+ * Clase principal del proyecto SUCERENET.
+ * Se encarga de iniciar la aplicación y poner en funcionamiento
+ * el servicio web desarrollado con Spring Boot.
  */
+@SpringBootApplication
 public class Securenet {
 
+    /**
+     * Método principal de ejecución.
+     * Inicia Spring Boot y el servidor web integrado Tomcat.
+     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        // Inicia la aplicación y sus componentes.
+        SpringApplication.run(Securenet.class, args);
     }
 }

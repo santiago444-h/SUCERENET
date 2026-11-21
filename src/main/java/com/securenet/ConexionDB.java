@@ -1,5 +1,5 @@
 
-package com.sucerenet;
+package com.securenet;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

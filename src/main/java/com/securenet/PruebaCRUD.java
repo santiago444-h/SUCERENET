@@ -1,5 +1,5 @@
 
-package com.sucerenet;
+package com.securenet;
 
 public class PruebaCRUD {
 
